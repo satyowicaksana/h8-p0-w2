@@ -1,0 +1,39 @@
+1. Newton Second Law
+
+STORE "m" with 600
+STORE "a" with 2
+STORE "f" with calculation of "m" times "a"
+
+DISPLAY "f"
+
+2. Tahun Kabisat
+STORE "year" to any number
+
+IF calculation of "year" mod 4 equals to 0
+  IF calculation of "year" mod 100 equals to 0
+    IF calculation of "year" mod 400 equals to 0
+      DISPLAY "leap"
+    ELSE
+      DISPLAY "not leap"
+  ELSE
+    DISPLAY "leap"
+ELSE
+  DISPLAY "not leap"
+
+3. Laundry Day
+STORE "clothes" to 0
+
+WHILE "clothes" < 20
+  ADD "clothes" by 1
+
+DO "wash"
+
+4. Periksa Kuku
+STORE "student" to 0
+
+WHILE "student" < 40
+  IF student has long nail
+    DO "punish"
+  ELSE
+    DO "praise"
+  ADD "student" by 1
