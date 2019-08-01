@@ -1,5 +1,10 @@
 1. Newton Second Law
 
+1. Simpan "m" dengan nilai 600
+2. Simpan "a" dengan nilai 2
+3. Simpan "f" dengan nilai perkalian dari "m" dan "a"
+4. Tampilkan nilai "f"
+
 STORE "m" with 600
 STORE "a" with 2
 STORE "f" with calculation of "m" times "a"
@@ -7,6 +12,12 @@ STORE "f" with calculation of "m" times "a"
 DISPLAY "f"
 
 2. Tahun Kabisat
+
+1. Simpan "year" dengan angka tahun yang ingin diperiksa
+2. Jika "year" habis dibagi 4, maka lanjut ke langkah ke-3. Jika tidak, tampilkan "not leap" yang menandakan tahun bukan kabisat dan hentikan proses
+3. Jika "year" habis dibagi 100, maka lanjut ke langkah ke-4. Jika tidak, tampilkan "leap" yang menandakan tahun kabisat dan proses
+4. Jika "year" habis dibagi 400, maka tampilkan "leap" yang menandakan tahun kabisat dan proses. Jika tidak, tampilkan "not leap" yang menandakan tahun kabisat
+
 STORE "year" to any number
 
 IF calculation of "year" mod 4 equals to 0
@@ -21,6 +32,11 @@ ELSE
   DISPLAY "not leap"
 
 3. Laundry Day
+
+1. Simpan "clothes" dengan 0 yang menandakan belum ada baju dicuci
+2. Selama "clothes" bernilai kurang 20, tambahkan nilai "clothes" dengan 1
+3. Tampilkan "wash" yang menandakan saatnya menyalakan mesin cuci
+
 STORE "clothes" to 0
 
 WHILE "clothes" < 20
@@ -29,6 +45,11 @@ WHILE "clothes" < 20
 DO "wash"
 
 4. Periksa Kuku
+
+1. Simpan "student" dengan angka 0 yang menandakan belum ada murid yang diperiksa
+2. Selama "student" bernilai kurang dari 40, lakukan langkah ke-3 dan tambahkan nilai "student" dengan 1
+3. Jika "student" yang diperiksa punya kuku panjang, maka hukum murid. Jika tidak, maka puji murid.
+
 STORE "student" to 0
 
 WHILE "student" < 40
